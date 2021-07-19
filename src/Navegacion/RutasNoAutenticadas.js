@@ -15,7 +15,7 @@ export default function RutasNoAutenticadas()
                 screenOptions={{ headerShown: false }}
             >
                 <Stack.Screen component={Login} name="login" />
-                <Stack.Screen component={Registrar} name="Register" />
+                <Stack.Screen component={Registrar} name="register" />
                 <Stack.Screen component={RestaurarPassword} name="lostpassword" />
             </Stack.Navigator>
         </NavigationContainer>
